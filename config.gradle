@@ -1,0 +1,19 @@
+ext {
+    //业务接口地址
+    apiUrls = ""
+    //业务名字会根据这个字段你创建对应的包名
+    businessNames = ""
+    //业务接口地址
+    //生成java文件的包名
+    packageNames = ""
+    //需要提到外层文件夹的文件名
+    baseFileName = ""
+    //可以下载单个文件
+    downFileName = ""
+
+    //这个配置可以单独设置转换单个proto文件
+    protoFiles = ""
+    //生成的java文件路径 (可以在任意modulez生成) 以项目根目录为基准
+    convertProtoUrls = ""
+}
+
